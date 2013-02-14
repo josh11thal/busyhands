@@ -1,0 +1,80 @@
+/* 
+
+Style Hints: 
+
+Body Font Size = 12px
+	 Line Height = 17px
+	 Font Family = "Times New Roman", serif
+	 Font Color = #656565
+
+H1 Font Size = 40px
+   Font Family = Arial, Helvetica, sans-serif
+   Text-transform: uppercase;
+   Font Color = #999999
+
+Link Hover Color = #20222a
+
+*/
+
+body {
+
+}
+
+h1 {
+
+}
+
+#nav {
+	background-color: black;
+	width: 100%;
+	display: block;
+	padding: 0 50px 0 50px;
+	margin: 0;
+}
+
+#nav li {
+	float: left;
+}
+
+#nav ul li {
+	float: left;
+	padding-left: 0;
+	list-style: none;
+}
+
+	
+#nav li a {
+	color: gray;
+	display: block;
+	width: 100px;
+	text-decoration: none;
+}
+
+#nav a:hover {
+	background: #20222a;
+}
+/*
+
+.nav li {
+	float: left;
+	margin: 5px;
+	text-align: center;
+}
+
+.nav li a {
+	background: #f66;
+	color: #fff;
+	display: block;
+	margin: 5px 0;
+	text-decoration: none;
+	width: 240px;
+}
+
+.nav a:hover {
+	background: #f26;
+}
+
+.nav .active a {
+	background: #666;
+	cursor: default;
+}
